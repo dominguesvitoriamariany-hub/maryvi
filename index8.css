@@ -1,0 +1,323 @@
+ * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #fff0f5 0%, #fff5f9 100%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+     header {
+      background: linear-gradient(90deg, #78024f, #f28abe);
+      color: white;
+      padding: 1.5rem 0;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 4px 20px rgba(255, 20, 147, 0.3);
+    }
+
+    .header-content {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 2rem;
+    }
+
+    .form-container {
+      background: white;
+      border-radius: 28px;
+      box-shadow: 0 20px 60px rgba(255, 20, 147, 0.2);
+      width: 100%;
+      max-width: 480px;
+      padding: 3rem 2.5rem;
+      border: 8px solid #ff1493;
+    }
+
+    .form-header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    .form-header h1 {
+      color: #ff1493;
+      font-size: 2.6rem;
+      font-weight: 700;
+    }
+
+    .form-header p {
+      color: #555;
+      font-size: 1.1rem;
+      margin-top: 8px;
+    }
+
+    .form-group {
+      margin-bottom: 1.6rem;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+      color: #333;
+      font-weight: 600;
+      font-size: 1.05rem;
+    }
+
+    input[type="text"],
+    input[type="tel"],
+    input[type="email"],
+    input[type="password"],
+    input[type="date"] {
+      width: 100%;
+      padding: 14px 16px;
+      border: 2px solid #ffe0f0;
+      border-radius: 12px;
+      font-size: 1.05rem;
+      transition: all 0.3s ease;
+    }
+
+    input:focus {
+      outline: none;
+      border-color: #ff1493;
+      box-shadow: 0 0 0 4px rgba(255, 20, 147, 0.15);
+    }
+
+    .radio-group {
+      margin-bottom: 1.8rem;
+    }
+
+    .radio-group label {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 12px;
+      font-weight: 500;
+      cursor: pointer;
+    }
+
+    input[type="radio"] {
+      accent-color: #ff1493;
+      transform: scale(1.2);
+    }
+
+    .buttons {
+      display: flex;
+      gap: 15px;
+      margin-top: 2rem;
+    }
+
+    button {
+      flex: 1;
+      padding: 16px;
+      border: none;
+      border-radius: 50px;
+      font-size: 1.1rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .btn-enviar {
+      background: linear-gradient(90deg, #ff1493, #ff69b4);
+      color: white;
+    }
+
+    .btn-enviar:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 10px 25px rgba(255, 20, 147, 0.4);
+    }
+
+    .btn-deletar {
+      background: #f0f0f0;
+      color: #666;
+    }
+
+    .btn-deletar:hover {
+      background: #e0e0e0;
+      color: #333;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 2rem;
+      color: #888;
+      font-size: 0.95rem;
+    }
+
+     .menu{
+      display: flex;
+      justify-content: center;
+      gap: 20rem;
+      flex-wrap: wrap;
+      margin-top: 2rem;
+      margin-right: 30px;
+      background-color: #7b004c;
+      align-items: auto;
+    }
+      .menu{
+      background: rgba(255, 20, 147, 0.5);
+      color: #ffffff;
+      padding: 1px 32px;
+      border-radius: 50px;
+      font-weight: 600;
+      font-size: 1.05rem;
+      box-shadow: 0 6px 20px rgba(255, 20, 147, 0.5);
+      text-decoration: none;
+      border: none;
+      position: fixed;
+      top: 5px;
+      right: 0px;
+    }
+
+    a{
+     
+      text-decoration: none;
+    }
+
+        footer {
+      text-align: center;
+      padding: 1rem;
+      color: #888;
+      font-size: 0.95rem;
+      background: white;
+      margin-top: auto;
+    }
+
+
+@font-face {
+    font-family: 'Beaumaris';
+    src: url('caminho/para/Beaumaris-Regular.woff2') format('woff2'),
+         url('caminho/para/Beaumaris-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Beaumaris';
+    src: url('caminho/para/Beaumaris-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Beaumaris';
+    src: url('caminho/para/Beaumaris-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+body, 
+h1, h2, h3, 
+p, li, span, td, th, label, 
+strong, a, button, .price {
+    font-family: 'Beaumaris', serif !important;
+}
+
+h1 {
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+
+h2, h3 {
+    font-weight: 600;
+}
+
+p, li, .text {
+    font-weight: 400;
+    line-height: 1.8;
+}
+
+.price {
+    font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+  
+  header {
+    position: static !important;
+    padding: 1rem 0;
+  }
+
+  .header-content {
+    flex-direction: column;
+    height: auto;
+    gap: 1rem;
+    padding: 0 1rem;
+    margin-left: 0;
+  }
+
+  .logo {
+    justify-content: center;
+  }
+
+  .logoimg {
+    margin-right: 0;
+  }
+
+  nav {
+    width: 100%;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  nav a {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .main-container {
+    flex-direction: column;
+    text-align: center;
+    gap: 2.5rem;
+    padding: 2rem 1rem;
+  }
+
+  .photo-container {
+    max-width: 280px;
+    margin: 0 auto;
+  }
+
+  .content h2 {
+    font-size: 2.8rem;
+  }
+
+  .content h2 span {
+    font-size: 3.5rem;
+  }
+
+  .content p {
+    font-size: 1.1rem;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .content h2 {
+    font-size: 2.2rem;
+  }
+  .content h2 span {
+    font-size: 2.8rem;
+  }
+
+  .logo{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  
+
+  footer p{
+    font-size: 22px;
+  }
+}

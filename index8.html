@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="Design sem nome (1) (1).png">
+  <title>Cadastro | Clínica Mariany</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index8.css">
+</head>
+<body>
+
+  <div class="form-container">
+    
+    <div class="form-header">
+      <h1>Cadastro</h1>
+      <p>Preencha seus dados para agendar</p>
+    </div>
+
+    <form>
+      <div class="form-group">
+        <label for="nome">Nome completo:</label>
+        <input type="text" id="nome" placeholder="Digite seu nome" required>
+      </div>
+
+      <div class="form-group">
+        <label for="telefone">Telefone / WhatsApp:</label>
+        <input type="tel" id="telefone" placeholder="(XX) 9XXXX-XXXX" required>
+      </div>
+
+      <div class="form-group">
+        <label for="data">Data de Agendamento:</label>
+        <input type="date" id="data" required>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="seuemail@exemplo.com" required>
+      </div>
+
+      <div class="form-group">
+        <label for="senha">Senha (para acessar seu perfil):</label>
+        <input type="password" id="senha" placeholder="Crie uma senha" required>
+      </div>
+
+      <div class="radio-group">
+        <label>Sexo:</label>
+        <label>
+          <input type="radio" name="sexo" value="feminino" required> Feminino
+        </label>
+        <label>
+          <input type="radio" name="sexo" value="masculino"> Masculino
+        </label>
+        <label>
+          <input type="radio" name="sexo" value="outros"> Outros
+        </label>
+      </div>
+
+      <div class="buttons">
+        <button type="submit" class="btn-enviar">Enviar Cadastro</button>
+        <button type="reset" class="btn-deletar">Limpar</button>
+      </div>
+    </form>
+
+    <div>
+        <a href="index1.html">
+        <button class="menu">Voltar</button>
+       </a>
+      </div>
+
+    <footer>
+     Mariany Vitória • Estética & Bem-estar
+    </footer>
+  </div>
+
+</body>
+</html>

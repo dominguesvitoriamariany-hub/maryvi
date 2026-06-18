@@ -1,0 +1,380 @@
+ * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+
+    body {
+      font-family: 'Poppins', 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #fff0f5 0%, #fff5f9 100%);
+      color: #333;
+      line-height: 1.6;
+    }
+
+      header {
+      background: linear-gradient(90deg, #78024f, #f28abe);
+      color: white;
+      padding: 1.5rem 0;
+      box-shadow: 0 4px 15px pink;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .header-content {
+      max-width: 1200px;
+      /* margin: 0 auto; */
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      /* padding: 0 2rem; */
+      height: 40px;
+      margin-left: 30px;
+    }
+
+
+    .logo h1 {
+      font-size: 2.6rem;
+      font-weight: 700;
+    }
+
+    .logo p {
+      font-size: 1.1rem;
+      opacity: 0.95;
+    }
+
+    .btn-voltar {
+      background: white;
+      color: #ff1493;
+      padding: 12px 28px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: all 0.3s ease;
+    }
+
+    .btn-voltar:hover {
+      background: #ff1493;
+      color: white;
+      transform: translateY(-3px);
+    }
+
+    .main-container {
+      max-width: 1200px;
+      margin: 4rem auto;
+      padding: 0 2rem;
+    }
+
+    .prices-card {
+      background: white;
+      border-radius: 28px;
+      padding: 3.5rem 3rem;
+      box-shadow: 0 20px 50px rgba(255, 20, 147, 0.15);
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    .prices-card h2 {
+      color: #ff1493;
+      font-size: 2.5rem;
+      text-align: center;
+      margin-bottom: 1.5rem;
+    }
+
+    .subtitle {
+      text-align: center;
+      font-size: 1.15rem;
+      color: #555;
+      max-width: 700px;
+      margin: 0 auto 3rem;
+    }
+
+    .prices-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 3rem;
+    }
+
+    .price-section h3 {
+      color: #ff1493;
+      font-size: 1.6rem;
+      margin-bottom: 1.4rem;
+      padding-bottom: 10px;
+      border-bottom: 3px solid #ff69b4;
+    }
+
+    .price-item {
+      padding: 14px 0;
+      border-bottom: 1px solid #f0f0f0;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .price-item:last-child {
+      border-bottom: none;
+    }
+
+    .treatment-name {
+      font-weight: 500;
+      color: #333;
+    }
+
+    .price-range {
+      color: #ff1493;
+      font-weight: 600;
+      white-space: nowrap;
+    }
+
+    .note {
+      background: #fff0f5;
+      padding: 1.5rem;
+      border-radius: 16px;
+      margin-top: 2.5rem;
+      text-align: center;
+      font-size: 1.05rem;
+      color: #555;
+      border-left: 5px solid #ff69b4;
+    }
+
+    .badges {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      margin-top: 2.5rem;
+      flex-wrap: wrap;
+    }
+
+    .badge {
+      background: #ff1493;
+      color: white;
+      padding: 12px 28px;
+      border-radius: 50px;
+      font-weight: 600;
+    }
+
+    footer {
+      text-align: center;
+      padding: 3rem 1rem 2rem;
+      color: #777;
+      font-size: 0.98rem;
+    }
+       .menu{
+      display: flex;
+      justify-content: center;
+      gap: 20rem;
+      flex-wrap: wrap;
+      margin-top: 2rem;
+      margin-right: 30px;
+      background-color: #7b004c;
+      align-items: auto;
+    }
+      .menu{
+      background:rgba(255, 20, 147, 0.5);
+      color: #ffffff;
+      padding: 1px 32px;
+      border-radius: 50px;
+      font-weight: 600;
+      font-size: 1.05rem;
+      box-shadow: 0 6px 20px rgba(255, 20, 147, 0.5);
+      text-decoration: none;
+     border: none;
+    }
+    
+    a{
+      text-decoration: none;
+    }
+
+    .logo {
+      text-align: auto;
+      display: flex;
+      align-items: center;
+      flex: 1;
+      /* gap:110px; */
+      /* justify-content: center; */
+      
+    }
+    
+    .logoTexto{
+      display: flex;
+      flex-direction: column;
+
+
+    }
+
+    .logo h1 {
+      font-size: 2.8rem;
+      font-weight: 700;
+      margin: 0;
+      text-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    }
+
+    .logo p {
+      font-size: 1.1rem;
+      opacity: 0.95;
+      margin-top: 1.5px;
+    }
+
+      .logoimg{
+        height: 85px;
+        /* height:center;
+        flex: center; */
+        width: 99px;
+        object-fit: cover;
+        display: flex;
+        justify-self: left;
+        justify-content: left;
+        margin-right: 30px;
+      }
+
+      .logoimg img{
+        width: 100%;
+        height: auto;
+      }
+      
+    footer {
+      text-align: center;
+      padding: 1rem;
+      color: #888;
+      font-size: 0.95rem;
+      background: white;
+      margin-top: auto;
+    }
+
+    @media (max-width: 900px) {
+      .prices-grid {
+        grid-template-columns: 1fr;
+        gap: 2.5rem;
+      }
+    }
+
+@font-face {
+    font-family: 'Beaumaris';
+    src: url('caminho/para/Beaumaris-Regular.woff2') format('woff2'),
+         url('caminho/para/Beaumaris-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Beaumaris';
+    src: url('caminho/para/Beaumaris-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Beaumaris';
+    src: url('caminho/para/Beaumaris-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+body, 
+h1, h2, h3, 
+p, li, span, td, th, label, 
+strong, a, button, .price {
+    font-family: 'Beaumaris', serif !important;
+}
+
+h1 {
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+
+h2, h3 {
+    font-weight: 600;
+}
+
+p, li, .text {
+    font-weight: 400;
+    line-height: 1.8;
+}
+
+.price {
+    font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+  
+  header {
+    position: static !important;
+    padding: 1rem 0;
+  }
+
+  .header-content {
+    flex-direction: column;
+    height: auto;
+    gap: 1rem;
+    padding: 0 1rem;
+    margin-left: 0;
+  }
+
+  .logo {
+    justify-content: center;
+  }
+
+  .logoimg {
+    margin-right: 0;
+  }
+
+  nav {
+    width: 100%;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  nav a {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .main-container {
+    flex-direction: column;
+    text-align: center;
+    gap: 2.5rem;
+    padding: 2rem 1rem;
+  }
+
+  .photo-container {
+    max-width: 280px;
+    margin: 0 auto;
+  }
+
+  .content h2 {
+    font-size: 2.8rem;
+  }
+
+  .content h2 span {
+    font-size: 3.5rem;
+  }
+
+  .content p {
+    font-size: 1.1rem;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .content h2 {
+    font-size: 2.2rem;
+  }
+  .content h2 span {
+    font-size: 2.8rem;
+  }
+
+  .logo{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  
+
+  footer p{
+    font-size: 22px;
+  }
+}
